@@ -1,0 +1,16 @@
+{
+  "id": "com-simple-donut-gauge-1",
+  "name": "Simple Donut Gauge",
+  "version": "1.0",
+  "resources": [
+    {
+      "type": "webcomponent",
+      "uri": "https://raw.githubusercontent.com/YOUR_REPO/CustomWidgets/main/gauge.js"
+    }
+  ],
+  "icon": "https://raw.githubusercontent.com/YOUR_REPO/CustomWidgets/main/donut_gauge.png",
+  "properties": [
+    { "name": "value", "type": "number", "defaultValue": 50 },
+    { "name": "target", "type": "number", "defaultValue": 100 }
+  ]
+}
